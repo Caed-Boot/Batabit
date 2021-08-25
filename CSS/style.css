@@ -1,4 +1,27 @@
+/* 
+1. Posicionamiento
+2. Modelo de caja (Box model)
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+
 :root {
+    --yellow: #EEC80C;
+    --orange: #E86E00;
+    --bitcoinOrange: #F7931A;
+    --degradado: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    --blue: #0B8AFF;
+    --secBlue: #1A9AF7;
+    --softblue: #E7F5FF;
+    --warmBlackP: #282623;
+    --warmBlack: #201E1C;
+    --grey: #BABABA;
+    --offWhite: #FAF8F7;
+    --white: #FFFFFF;
+    --softOrange: #FFE9D5;
+    --greenLight: #0CEEC8;
 
 }
 
@@ -6,6 +29,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
 }
 
 a {
