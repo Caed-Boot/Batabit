@@ -44,3 +44,68 @@ ul {
     list-style: none;
 }
 
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    background: var(--degradado);
+}
+
+header img {
+    width: 150px;
+    height: 24px;
+}
+
+.header__title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 15rem;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.header__title-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: var(--white);   
+}
+
+.header__title-container p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-top: 25px;
+    color: var(--white);
+}
+
+.header__button {
+    position: absolute;
+    top: 270px;
+    left: calc(50% - 115.5px);
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background: var(--offWhite);
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--warmBlack);
+}
+
+.header__button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/Vector-black.svg");
+}
