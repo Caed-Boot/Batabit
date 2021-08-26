@@ -354,3 +354,21 @@ main .main__exchange-container {
     color: #BABABA;
 }
 
+.bitcoin__img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 60vh;
+    background-image: url("../assets/img/bitcoinbaby3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bitcoin__img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--white);
+    text-align: center;
+}
