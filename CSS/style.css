@@ -167,12 +167,17 @@ main .main__exchange-container {
     font-family: "Inter", sans-serif;
 }
 
-.main__currency-tables .currency__title {
+.main__currency-tables .currency__title,
+.main__commision-tables .currency__title {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--orange);
+}
+
+.main__commision-tables .title--blue {
+    color: var(--secBlue);
 }
 
 .currency__table-container {
