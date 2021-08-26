@@ -254,3 +254,103 @@ main .main__exchange-container {
 .date--blue {
     background-color: #E7F5FF;
 }
+
+.main__product {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background: var(--warmBlack);
+}
+
+.product__papita {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    left: calc(50% - 28px);
+    top: -13px;
+    background-image: url("../assets/icons/logo-papita.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product__detail-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product__detail-title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--white);
+}
+
+.product__detail-title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--offWhite);
+}
+
+.product__detail-card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warmBlackP);
+    border-radius: 5px;
+    box-shadow: 0 4px 11px 4px rgb(0 0 0 / 16%);
+}
+
+.product__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product__detail-card .clock {
+    background-image: url("../assets/icons/clock.svg");
+}
+
+.product__detail-card .eye {
+    background-image: url("../assets/icons/eye.svg");
+}
+
+.product__detail-card .dollar {
+    background-image: url("../assets/icons/dollar.svg");
+}
+
+.product__detail-card .check {
+    background-image: url("../assets/icons/check.svg");
+}
+
+
+.product__card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--offWhite);
+}
+
+.product__card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #BABABA;
+}
+
