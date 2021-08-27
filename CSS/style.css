@@ -172,7 +172,7 @@ main .main__exchange-container {
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 35px 20%;
+    margin: 35px 30px;
     font-family: "Inter", sans-serif;
 }
 
@@ -253,8 +253,10 @@ main .main__exchange-container {
 }
 
 .currency__table-date {
-    margin: 16px 0;
+    min-width: 240px;
+    max-width: 280px;
     height: 35px;
+    margin: 16px auto;
     padding-top: 10px;
     background: var(--softOrange);
     border-radius: 7px;
@@ -401,7 +403,7 @@ main .main__exchange-container {
 .plans__container-slider {
     display: flex;
     gap: 50px;
-    height: 316px;
+    height: 330px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -550,3 +552,4 @@ footer .left ul {
 .left a {
     color: var(--offWhite);
 }
+
