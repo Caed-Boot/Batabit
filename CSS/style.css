@@ -376,17 +376,38 @@ main .main__exchange-container {
 
 .plans__container-card{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 45px 0;
     padding: 0 15px;
     text-align: center;
     background-color: var(--white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    border: 3px solid var(--orange);
 }
+
+.plans__container-slider {
+    display: flex;
+    gap: 50px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.border--blue {
+    border: 3px solid var(--secBlue);
+}
+
+
+.border--red {
+    border: 3px solid rgb(231, 46, 46);
+}
+
 
 .plans__title h2 {
     font-size: 2.3rem;
@@ -416,7 +437,16 @@ main .main__exchange-container {
     border-radius: 8px;
     color: var(--offWhite);
     font-size: 1.2rem;
+    box-shadow: 0px 6px 6px 0px #808080;
 }
+
+.title-card--blue {
+    background-color: var(--secBlue);
+} 
+
+.title-card--red {
+    background-color: rgb(231, 46, 46);
+} 
 
 .plan__card-title {
     padding-top: 30px;
@@ -427,7 +457,6 @@ main .main__exchange-container {
 }
 
 .plan__card-price {
-    padding: 5px 20px 0 0;
     font-size: 5.2rem;
     font-weight: bold;
     line-height: 5.3rem;
@@ -457,6 +486,16 @@ main .main__exchange-container {
     line-height: 1.8rem;
     color: var(--warmBlack);
 }
+
+.button-card--red {
+    border: 2px solid rgb(231, 46, 46);
+}
+
+
+.button-card--blue {
+    border: 2px solid var(--secBlue);
+}
+
 
 .plan__button span {
     display: inline-block;
